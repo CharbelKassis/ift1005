@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title> Page d'acceuil WinCDEmu </title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+	
+	<body>
+		
+		<header>
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+			width="600" height="200">
+				<defs>
+					<path id="logoPath" d="M80,200 a250,200 0 0 1 450,0"/>
+				</defs>
+						
+				<rect x="0" y="0" width="600" height="200" style="fill:white" />
+				
+				<text x="10" style="font-size:70pt; letter-spacing: 2px;
+				text-shadow:
+				1px 1px gray, 
+                2px 2px gray, 
+                3px 3px gray, 
+                4px 4px gray, 
+                5px 5px gray, 
+                6px 6px gray">
+>
+					<textPath xlink:href="#logoPath"> WinCDEmu </textPath>
+				</text>
+				
+				<line x1="0" y1="0" x2="600" y2="0" style="stroke-width: 5px; stroke: black;"/>
+				<line x1="600" y1="0" x2="600" y2="200" style="stroke-width: 5px; stroke: black;"/>
+				<line x1="600" y1="200" x2="0" y2="200" style="stroke-width: 5px; stroke: black;"/>
+				<line x1="0" y1="200" x2="0" y2="0" style="stroke-width: 5px; stroke: black;"/>
+				
+			</svg>
+		</header>
+		
+		<nav>	
+			<ul>
+				<li class="hide"> <a href="index.html">Index</a> </li>
+				
+				<li> <a href="comparaison.html">Comparaison</a> </li>
+				
+				<li> <a href="tutoriel.html">Tutoriel</a> </li>
+				
+				<li> <a href="lien.html">Liens utiles</a> </li>
+				
+				<li> <a href="apropos.html">À propos</a> </li>
+			</ul>
+		
+		</nav>
+
+		<main>
+				
+			<figure>
+					
+				<img src="wincdemu.png" alt="WinCDEmu"/>
+					
+			</figure>
+				
+			<section>
+				<h1> Qu'est-ce que WinCDEmu? </h1>
+				
+				<em>WinCDEmu</em> est un programme qui est principalement utilisé pour émuler un lecteur de disques (CD / DVD / Bluray).
+				Il est particulierement utile si vous possédez des fichiers .iso ou equivalents, c'est-à-dire des fichiers qui
+				sont prêts à être gravés sur un disque et que:
+					
+				<ul>
+					<li> Vous n'avez pas le lecteur/graveur nécessaire </li>
+					<li> Vous n'avez pas de disques </li>
+					<li> Vous ne voulez pas avoir plusieurs disques physiques pour des raisons d'espaces </li>
+				</ul>
+					
+				<p> Ce genre de programme est souvent utilisé en combinaisant avec d'autres programmes. Puisqu'il sert à lire des disques, il devrait
+				existait une façon d'écrire des fichier .iso. On peut se servir de <em>WinCDEmu</em> pour extraire ces fichiers, effectuer des changements
+				localement puis recréer un nouveau fichier .iso avec un autre programme.</p> 
+					
+				<p> Un exemple où ceci est utile: Ajouter des mises à jour à un disque d'installation Windows.<br>
+				Lorsque vous téléchargez une image de Windows depuis le site de Microsoft, ce fichier ne contient aucuns pilotes hormis ceux nécessaires
+				pour faire fonctionner l'ordinateur, donc il est impossible d'utiliser l'internet ou certains appareils qui utilisent des ports USB directement. Il faudrait 
+				d'abord que vous installer les pilotes de votre carte réseau pour accéder à l'internet.
+				Ensuite, si vous ne voulez pas attendre une éternité que Windows Update trouvent les updates importantes, il
+				suffit de les ajouter vous-mêmes pour qu'ils s'installent après Windows automatiquement. Avec <em>WinCDEmu</em>, on peut extraire tous les fichiers Windows, puis leur ajouter les
+				mises à jour grâce à un programme puis recréer un nouveau .iso avec un autre logiciel.</p>
+				
+			</section>
+				
+				
+			<section>
+				<h1> Contenu </h1>
+				
+				Ce site contiendra des informations concernant l'émulation de lecteurs de disques en comparant plusieurs programmes, un tutoriel qui explique comment installer et utiliser
+				<em> WinCDEmu </em> , des liens utiles ainsi que l'explication des choix de design du site.
+				
+			</section>
+				
+		</main>
+		
+		<footer>
+				Ce site web a été créé par Charbel Kassis dans le cadre du cours IFT1005.
+		</footer>
+	
+	</body>
+
+</html>

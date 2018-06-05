@@ -1,0 +1,261 @@
+.hide {
+	
+	display: none;
+}
+
+#rien {
+
+	border-right-width: 4px;
+}
+
+#zoneText {
+
+}
+
+body {
+	
+	background: #DDF5DC;
+	font-family: Sans-Serif;
+}
+
+main h1 {
+	
+	text-align: center;
+	color: red;
+	font-size: 30pt;
+	text-shadow:
+				1px 1px #CC0000,			
+                2px 2px #CC0000,
+                3px 3px #CC0000;
+	border-bottom: solid black 1px;
+}
+
+h2 {
+	
+	text-decoration: underline;
+}
+
+div {
+	
+	text-align: justify;
+}
+
+em {
+	
+	color: red;
+}
+
+header {
+	
+	text-align: center;
+}
+
+nav {
+	
+	text-shadow:
+				1px 1px gray, 
+                2px 2px gray, 
+                3px 3px gray, 
+                4px 4px gray;
+	margin-left: 4%;
+	position: fixed;
+	
+}
+
+nav ul {
+	
+	float: left;
+	border: solid black 2px;
+}
+
+ul {
+	list-style-image: url('disc.png');
+	background-color: white;
+}
+
+ol {
+	
+	padding-left: 10px;
+
+}
+
+nav ul li {
+
+	margin-bottom: 20px;
+
+}
+
+nav ul li:hover {
+	
+	text-shadow: none;
+}
+
+
+table {
+	
+	border-collapse: collapse;
+	text-align: center;
+	margin-top: 5%;
+	
+}
+
+th{
+		
+	border-bottom-width: 4px;
+}
+
+.titre {
+	
+	border-right-width: 4px;
+}
+
+.titre, tr th{
+	
+	font-size: 15pt;
+	background-color: #f3bf3f;
+	color: red;
+	font-style: italic;
+	border-color: black;
+}
+
+
+
+th {
+	
+	background-color: gray;
+	border-right: solid black 1px;
+	border-bottom: solid black 4px;
+
+}
+
+table,tr,td {
+	
+	border: solid black 1px;
+}
+
+td {
+	padding: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #f9df9f;	
+
+}
+
+figure {
+	
+	float: right;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+}
+
+main {
+	
+	float: right;
+	margin-left: 20%;
+	margin-right: 15%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border: solid black 3px;
+	border-radius: 15px;
+	background: white;
+}
+
+section {
+	
+	padding: 10px;
+	margin: 1%;
+	text-align: justify;
+	line-height: 200%;
+}
+
+
+#liens {
+	
+	border: none;
+	background: none;
+	width: auto;
+	
+}
+
+#liens > section {
+	
+	float: left;
+	border: solid black 2px;
+	border-radius: 15px;
+	display: inline-block;
+	background: white;
+	width: 45%;
+}
+
+footer {
+	
+	clear: both;
+	text-align: center;
+	font-size: 10pt;
+	border-top: solid black 1px;
+	margin-top: 5%;
+	background: gray;
+	height: 20px;
+}
+
+form {
+	
+	text-align: justify;
+	margin: 50px;
+}
+
+textarea {
+   resize: none;
+   border-color: #028482;
+}
+
+#zoneText {
+	
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+@media (max-width:900px) {
+ 
+	nav ul {
+		
+		display: inline-block;
+		float: none;
+		margin: 0px;
+		padding: 0px;
+	
+	}
+	
+	nav ul li {
+		
+		display: inline-block;
+		font-size: 15pt;
+		margin: 0px;
+		padding: 0px;
+		padding-top: 10px;
+		border-left: solid black 1px;
+	}
+	
+	main {
+		
+		float:none;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	nav {
+
+		position: relative;
+		text-align: center;
+		padding-bottom: 10px;
+
+	}
+
+
+ 
+}
+
+
